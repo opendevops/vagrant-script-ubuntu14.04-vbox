@@ -1,0 +1,22 @@
+#
+# The MySQL database server configuration file.
+#
+# /etc/mysql/conf.d/global-my.cnf
+#
+[mysqld]
+
+
+[Fine Tuning]
+table_cache             = 512
+#max_connections        = 151
+
+[Query Cache Configuration]
+query_cache_size        = 200M
+
+[innodb]
+innodb_buffer_pool_size = 2GB
+innodb_log_file_size    = 512M
+innodb_file_per_table   = ON
+#innodb_flush_log_at_trx_commit = 1
+#innodb_flush_method    = fdatasync
+#innodb_log_buffer_size = 1M

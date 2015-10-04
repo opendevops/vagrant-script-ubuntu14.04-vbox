@@ -1,0 +1,6 @@
+### JetBrains
+.idea/
+
+### Project
+webroot/project/*
+!webroot/project/index.php
